@@ -1,2 +1,2 @@
 # JinSight-ChallengeV2
-PRCV2024 广域红外小目标检测挑战赛
+CSIG 2025 红外视频卫星空中动目标检测挑战赛
