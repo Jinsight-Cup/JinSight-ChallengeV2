@@ -1,0 +1,107 @@
+/*  Revolution Slider */
+@import url("sliders/pe-icon-7-stroke.css");
+@import url("sliders/settings.css");
+@import url("sliders/layers.css");
+@import url("sliders/navigation.css");
+
+/*  Owl Slider */
+@import url("sliders/owl.carousel.css");
+
+/* JinSight series bar */
+.series-bar {
+  background: #12263a;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+}
+
+.series-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 8px 15px;
+}
+
+.series-title {
+  display: inline-flex;
+  gap: 9px;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.series-logo {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.series-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.series-links a {
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.series-links a:hover,
+.series-links a.series-current {
+  color: #f2c14e;
+  border-bottom-color: #f2c14e;
+}
+
+.navbar-brand.brand-with-logo {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  height: 70px;
+  padding: 0;
+  color: #18222d;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.navbar > .outer-container,
+.navbar > .container {
+  max-width: 1000px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar > .outer-container .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar > .container > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar .navbar-header {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.brand-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 768px) {
+  .series-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
